@@ -23,14 +23,6 @@ public class Plane {
     return isInTheAir;
   }
 
-  public void setIsInTheAir(boolean isInTheAir) {
-    this.isInTheAir = isInTheAir;
-  }
-
-  public int getId() {
-    return id;
-  }
-
   @Override
   public String toString() {
     return "Plane{" +
